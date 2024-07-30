@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ILE-MAINZ-main",
+    "\\ILE-MAINZ-main\\lms",
+    "\\ILE-MAINZ-main\\lms\\landing",
+    "\\ILE-MAINZ-main\\lms\\landing\\Interface",
+    "\\ILE-MAINZ-main\\lms\\landing\\Interface\\form",
+    "\\ILE-MAINZ-main\\lms\\sis",
+    "\\ILE-MAINZ-main\\lms\\sis\\SISPAGES"
+  ],
+  "SelectedNode": "\\ILE-MAINZ-main\\lms\\landing\\Interface\\form\\enrolled.aspx.cs",
+  "PreviewInSolutionExplorer": false
+}

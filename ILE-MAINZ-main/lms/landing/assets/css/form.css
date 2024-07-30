@@ -1,0 +1,140 @@
+﻿/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center align the entire form */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Style for header */
+header {
+    font-size: 24px;
+    margin-bottom: 30px; /* Increase margin at the bottom for better separation */
+    margin-top: 20px; /* Add margin to the top */
+    text-align: center;
+    color: #fff;
+    background-color: #ff0000; /* Red background color */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Style for form sections */
+.details {
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for labels */
+.label {
+    font-weight: bold;
+}
+
+/* Style for input fields */
+.fields {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Add space between columns */
+}
+
+.input-field {
+    width: calc(50% - 10px); /* Adjusted width for two columns */
+    margin-bottom: 10px; /* Add margin to bottom for spacing */
+}
+
+.input-control {
+    width: 100%; /* Full width for input fields */
+    padding: 8px; /* Adjusted padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-control-1 {
+    width: 100%; /* Full width for input fields */
+    padding: 8px; /* Adjusted padding */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 900px;
+}
+
+.cent {
+    margin-left: 900px;
+}
+
+/* Style for buttons */
+.nextBtn {
+    background-color: #ff0000; /* Red background color */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px; /* Adjust margin from the fields */
+    margin-left: 840px;
+}
+
+    .nextBtn:hover {
+        background-color: #cc0000; /* Darker red on hover */
+    }
+
+/* Style for error messages */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Style for footer */
+.footer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+    .footer h4 {
+        margin-bottom: 10px;
+    }
+
+/* Style for social media icons */
+.icons {
+    margin-top: 10px;
+}
+
+    .icons i {
+        margin-right: 10px;
+        font-size: 24px;
+    }
+
+/* Justify learner's reference number */
+.input-field:nth-child(1) {
+    display: flex;
+
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+
+/* Adjust title for learner's reference number */
+.label:nth-child(2) {
+    text-align: center;
+    margin-bottom: 10px; /* Add margin to separate from input */
+}
+.center-textbox .input-control {
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Ensure text boxes occupy full width */
+}
+
+.submission-message {
+    color: green; /* or any other color you prefer */
+    font-weight: bold;
+}
